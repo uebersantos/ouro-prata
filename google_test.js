@@ -1,5 +1,5 @@
-Feature('Google');
+Feature('Ouro e Prata');
 
-Scenario('Abrir a página do google', ({ I }) => {
+Scenario('Abrir a página da Ouro e Prta', ({ I }) => {
     I.amOnPage('/')
 });
