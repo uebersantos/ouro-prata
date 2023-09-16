@@ -9,9 +9,9 @@ exports.config = {
   output: './output',
   helpers: {
     Playwright: {
-      url: 'http://www.google.com',
+      url: 'http://www.ouroeprata.com',
       browser: 'chromium',
-      show: true
+      show: false
     }
   },
   include: {
