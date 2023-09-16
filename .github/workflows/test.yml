@@ -23,7 +23,7 @@ jobs:
       run: npm install
 
     - name: Setup Playwright
-      run: microsoft/playwright-github-action@v1
+      uses: microsoft/playwright-github-action@v1
 
     - name: Run CodeceptJS tests
       run: npx codeceptjs test
